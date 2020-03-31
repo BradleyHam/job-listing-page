@@ -1,0 +1,47 @@
+.jobItem{
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.jobDetailsContainer{
+    display: flex;
+    align-items: center;
+}
+
+.jobDetails{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 1rem;
+
+}
+
+.company{
+    color: var(--DesaturateDarkCyan);
+    font-weight: 700
+}
+
+.title{
+    font-weight: 700;
+}
+
+.desc{
+    opacity: .3;
+   
+}
+
+.jobTags{
+    display: flex;
+  
+    
+}
+.jobTags p:not(:last-child){
+    margin-right: 1rem;
+}

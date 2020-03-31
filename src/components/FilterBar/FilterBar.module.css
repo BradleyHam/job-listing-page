@@ -1,0 +1,38 @@
+.filterBar{
+    height: 70px;
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;    
+}
+
+.button{
+    color: var(--DesaturateDarkCyan);
+    display: inline-block;
+    border: none;
+    padding: .2rem;
+    margin: 0;
+    text-decoration: none;
+    background:white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+   
+    font-weight: 700;
+
+}
+
+.button:hover{
+    border-bottom: 1px solid var(--DesaturateDarkCyan)
+}
+
+.tagRow{
+    display: flex;
+    
+}
